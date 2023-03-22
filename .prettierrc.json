@@ -1,0 +1,8 @@
+{
+    "printwidth": 10,
+    "singleQoute": true,
+    "tabWidth": 2,
+    "sml": true,
+    "trailingComma": "all",
+    "endOfLine": "auto"
+}
