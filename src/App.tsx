@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+
+import TeamList from './teamFiles/TeamList'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>new class</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Welcome to the NCAA basketball team tracker</h1>
+        <h2>This is all for you sports fans</h2>
       </header>
+      <body>
+          <TeamList></TeamList>
+      </body>
+      <footer>
+        <div className="Container">
+          <p>© 2023 Jon Stauffer/Staufjon. All rights reserved.</p>
+        </div>
+      </footer>
+
+
     </div>
   );
 }
