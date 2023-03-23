@@ -1,24 +1,19 @@
 import React from 'react';
 
 import './App.css';
-
+import Header from './header';
+import Footer from './footer';
 import TeamList from './teamFiles/TeamList'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Welcome to the NCAA basketball team tracker</h1>
-        <h2>This is all for you sports fans</h2>
-      </header>
+      <Header></Header>
       <body>
-          <TeamList></TeamList>
+        <TeamList></TeamList>
       </body>
-      <footer>
-        <div className="Container">
-          <p>© 2023 Jon Stauffer/Staufjon. All rights reserved.</p>
-        </div>
-      </footer>
+      <Footer></Footer>
 
 
     </div>
